@@ -3,7 +3,7 @@ terraform {
     hostname     = "app.terraform.io"
     organization = "teamcarljavier"
     workspaces {
-      tags = ["tfdemo","src:local"]
+      tags = ["tfdemo","src:local","owner:carl"]
     }
   }
 }
