@@ -1,1 +1,1 @@
-string_length = 22
+string_length = 12
