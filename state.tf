@@ -1,9 +1,9 @@
 terraform {
   cloud {
-    hostname     = "app.terraform.io"
-    organization = "teamcarljavier"
+    hostname     = "tfcarl.is.hashicorpdemo.com"
+    organization = "hashicorp"
     workspaces {
-      tags = ["tfdemo","src:local","owner:carl"]
+      name = "tf-demo-workflow"
     }
   }
 }
