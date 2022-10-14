@@ -3,7 +3,7 @@ terraform {
     hostname     = "tfcarl.is.hashicorpdemo.com"
     organization = "carlcorp"
     workspaces {
-      name = "tfe-tfc-vcs-migrate"
+      name = "tfe-tfc-cli-migrate"
     }
   }
 }
