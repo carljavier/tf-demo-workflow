@@ -3,5 +3,5 @@ output "random_string_output" {
 }
 
 output "random_pet_nickname" {
-    value = random_pet.nickname.id
+  value = random_pet.nickname.id
 }
